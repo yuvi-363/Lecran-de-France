@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Chronologie du cinéma français, de 1895 à aujourd’hui." />
+  <title>Chronologie — L’écran de France</title>
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <div class="page-shell">
+    <div id="site-header"></div>
+    <main id="main-content">
+      <section class="page-hero">
+        <div class="wrap page-hero-grid">
+          <div>
+            <p class="eyebrow" data-i18n="timeline.eyebrow">De 1895 à aujourd’hui</p>
+            <h1 data-i18n-html="timeline.title">Chronologie<br><em>du cinéma.</em></h1>
+          </div>
+          <p class="page-hero-copy" data-i18n="timeline.copy">Plus d’un siècle de films, de manifestes et de regards : sélectionne une période ou clique sur une date pour traverser l’histoire du cinéma français.</p>
+        </div>
+      </section>
+      <section class="section" style="padding-top:10px">
+        <div class="wrap">
+          <div class="rule-label">
+            <span data-i18n="timeline.ruleLeft">Frise historique</span>
+            <span data-i18n="timeline.ruleRight">11 repères / 1895 — 2023</span>
+          </div>
+          <div class="filter-bar" id="timeline-filters" role="group" aria-label="Filtrer par période" data-i18n-aria="timeline.filterAria"></div>
+          <div class="cinema-timeline-stage reveal" id="cinema-timeline-stage"></div>
+          <div class="cinema-timeline-track" id="cinema-timeline-track"></div>
+          <div class="sources">
+            <strong data-i18n="timeline.sourcesLabel">Repères & archives :</strong>
+            <a href="https://www.cinematheque.fr/" target="_blank" rel="noreferrer">Cinémathèque française</a> ·
+            <a href="https://www.cnc.fr/" target="_blank" rel="noreferrer">CNC</a> ·
+            <a href="https://www.bfi.org.uk/" target="_blank" rel="noreferrer">British Film Institute</a> ·
+            <a href="https://www.festival-cannes.com/" target="_blank" rel="noreferrer">Festival de Cannes</a>.
+          </div>
+        </div>
+      </section>
+    </main>
+    <div id="site-footer"></div>
+  </div>
+  <script defer src="assets/app.js"></script>
+</body>
+</html>
